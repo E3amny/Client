@@ -1,0 +1,142 @@
+.main-update {
+    margin-top: 50px;
+    position: relative;
+}
+
+.main-update .back-button {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 10px 25px;
+    font-weight: bolder;
+    background: none;
+    cursor: pointer;
+}
+
+.update-post-title {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.update-post-title p {
+    color: #666;
+}
+
+.main-update img {
+    width: 100px;
+    height: 100px;
+}
+
+.update-post-title h3 {
+    color: #02a95c;
+}
+
+.update-post-title div {
+    margin-left: 15px;
+}
+
+.Save-update {
+    background-color: #fff;
+    color: #02a95c;
+    border: 2px solid #02a95c;
+    padding: 5px 40px;
+    font-weight: bold;
+    border-radius: 3px;
+    margin: 20px 0px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.update-post-photo img {
+    width: 100%;
+    height: auto;
+}
+
+.Delete-my-postinfo {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Delete-my-postinfo h5 {
+    font-weight: bold;
+}
+
+.Delete-my-postinfo p {
+    color: #666;
+}
+
+.Delete-my-postinfo .btn-delete-post {
+    color: #c54646;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.main-update .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    color: #02a95c;
+}
+
+.main-update .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+    color: #02a95c;
+}
+
+.main-update .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link {
+    border-bottom: 2px solid #02a95c;
+}
+
+.model-delete-post {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.model-delete-post .info-deleted {
+    background-color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 400px;
+    border-radius: 3px;
+    padding: 25px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.info-deleted div {
+    margin: 25px 0px;
+}
+
+.info-deleted div p {
+    color: #666;
+}
+
+.info-deleted .confirm-delete-post {
+    background-color: #02a95c;
+    color: #fff;
+    margin-top: 25px;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

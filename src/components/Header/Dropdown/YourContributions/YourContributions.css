@@ -1,0 +1,28 @@
+.Main-Create-Blood {
+    height: 75vh;
+}
+
+.main-cont {
+    height: 600px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.main-cont h4 {
+    margin: 25px 0px;
+    color: #02a95c;
+}
+
+.main-cont button {
+    margin-bottom: 50px;
+    padding: 8px 20px;
+    background-color: #02a95c;
+    border: 1px solid #02a95c;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

@@ -1,0 +1,15 @@
+.see-all-categories {
+    text-align: center;
+    color: #02a95c;
+    
+}
+
+.see-all-categories:hover {
+    color: #02a95c;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none;
+}
+.btn-group-vertical>.btn, .btn-group>.btn {
+    padding: 10px 15px;
+}

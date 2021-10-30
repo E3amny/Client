@@ -1,0 +1,39 @@
+.Main-view-by-id {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewpost img {
+    width: 100%;
+    height: 650px;
+}
+
+.viewpost {
+    width: 50%;
+}
+
+.viewpost h3 {
+    margin: 25px 0px;
+}
+
+.viewpost .info-post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-back-dashbord {
+    border: none;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #02a95c;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-top: 20px;
+}

@@ -1,0 +1,81 @@
+.Flafelbtn {
+    position: fixed;
+    font-size: 50px;
+    color: #8a0303;
+}
+
+#breathing-button {
+    -webkit-animation: breathing 7s ease-out infinite normal;
+    animation: breathing 7s ease-out infinite normal;
+    -webkit-font-smoothing: antialiased;
+}
+
+@-webkit-keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(1.5);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(1.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    25% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+    60% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+    100% {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.Main-Create-Blood {
+    height: 600px !important;
+    margin-top: 50px;
+}
+
+.Main-Create-Blood h4 {
+    color: #02a95c;
+    margin: 25px 0px;
+    text-transform: uppercase;
+}
+
+.Main-Create-Blood button {
+    color: #fff;
+    background-color: #02a95c;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

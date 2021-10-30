@@ -1,0 +1,96 @@
+.Main-your-Fundraisers {
+    margin-top: 50px;
+    width: 100%;
+    height: 650px;
+    margin-bottom: 25px;
+}
+
+.Main-title-Fundreiser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Main-title-Fundreiser h4 {
+    color: #02a95c;
+    text-transform: uppercase;
+}
+
+.Main-title-Fundreiser button {
+    text-align: center;
+    padding: 7px 30px;
+    background-color: #02a95c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.Main-your-Fundraisers img {
+    width: 100%;
+    border-radius: 3px;
+    height: 300px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.Main-your-Fundraisers .Main-View-YourFundraisers {
+    border-radius: 3px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 9px 0px #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 25px;
+    height: 500px;
+}
+
+.Main-View-YourFundraisers hr {
+    color: #198754;
+}
+
+.Main-View-YourFundraisers hr:not([size]) {
+    height: 3px;
+}
+
+.Main-your-Fundraisers .Main-view-content {
+    padding: 20px;
+    height: 200px;
+}
+
+.Main-view-content h6 {
+    font-weight: 900px;
+    font-size: 1rem!important;
+}
+
+.Main-view-content p {
+    color: #666;
+    font-size: .875rem;
+}
+
+.manage-Your-fundraisers {
+    text-align: center;
+    padding: 0px;
+    margin: 15px 0px;
+    cursor: pointer;
+    color: #02a95c;
+}
+
+.PostTitleClass {
+    height: 100px;
+}
+
+.empty-fundraiser {
+    height: 500px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

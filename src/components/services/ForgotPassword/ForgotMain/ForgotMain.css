@@ -1,0 +1,30 @@
+.Main-forgetPass {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Main-forgetPass input {
+    width: 100%;
+    display: inline-block;
+    padding: 10px;
+}
+
+.errorMessage h2 {
+    color: #02a95c;
+}
+
+.errorMessage button {
+    margin-top: 20px;
+    background-color: #02a95c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

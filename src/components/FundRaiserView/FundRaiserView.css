@@ -1,0 +1,229 @@
+.MainSectionFundRaiserView {
+    padding-top: 50px;
+    position: relative;
+}
+
+.MainSectionFundRaiserView img {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 5px solid #fbf8f6;
+}
+
+.title-fundRaiserView {
+    margin-bottom: 25px;
+}
+
+.create-fundRaiserView {
+    font-weight: bold;
+}
+
+.context-text-funRaiserView {
+    background-color: #fbf8f6;
+    padding: 35px;
+}
+
+.donation-fundRaiserView {
+    margin-top: 75px;
+    padding: 30px;
+    /* box-shadow: 5px 11px 18px 0px #ccc; */
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.donation-fundRaiserView span {
+    color: #767676;
+}
+
+.target {
+    color: #000000 !important;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.share-fundRaiserView,
+.share-donate {
+    margin-top: 15px;
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    transition: 1s ease;
+    -o-border-radius: 3px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+
+/* .share-fundRaiserView:hover {
+    background: none;
+    border: 1px solid #f58131;
+}
+
+.share-donate:hover {
+    background: none;
+    border: 1px solid #fcb957;
+} */
+
+.share-fundRaiserView {
+    background-color: #fcb957;
+}
+
+.share-donate {
+    background-color: #f58131;
+}
+
+.share-fundRaiserView .share-facebook,
+.share-donate .share-facebook {
+    position: absolute;
+    left: 20px;
+    background-color: #000;
+    width: 30px;
+    color: #fff;
+    font-size: 27px;
+    top: 13px;
+}
+
+.donation-fundRaiserView .all-donate {
+    margin-top: 25px;
+    padding: 8px;
+    border: 2px solid #02a95c;
+    background-color: #fff;
+    color: #02a95c;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-weight: 700;
+}
+
+
+/* 
+.share-fundRaiserView .share-donation {
+    background-color: #ffc14d;
+} */
+
+.pop-fundraiser {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.pop-fundraiser .pop-fundraiser-child {
+    background-color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 500px;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.close-pop {
+    position: absolute;
+    right: 15px;
+    font-size: 30px;
+    top: 15px;
+    cursor: pointer;
+}
+
+#basic-addon2 {
+    background-color: #02a95c;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.hommossbtn {
+    position: fixed;
+}
+
+.pop-fundraiser .pop-fundraiser-child-donate {
+    background-color: #ffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 800px;
+    border-radius: 3px;
+    padding: 25px;
+}
+
+.contributors-title {
+    margin-top: 35px;
+}
+
+.contribut {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Main-title-contributors {
+    height: 600px;
+    overflow: auto;
+}
+
+.title-contribut {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-contribut img {
+    width: 20%;
+}
+
+.contribut img {
+    width: 20%;
+}
+
+.no-fundraisers {
+    color: red;
+    text-align: center
+}
+
+@media only screen and (max-width: 772px) {
+    .pop-fundraiser .pop-fundraiser-child {
+        width: 330px;
+    }
+    .donation-fundRaiserView {
+        margin-top: 0px;
+    }
+    .contribut {
+        font-size: 16px;
+    }
+    .contribut img {
+        width: 25%;
+    }
+    .donation-fundRaiserView span:first-child {
+        font-size: 22px;
+    }
+    .donation-fundRaiserView span {
+        font-size: 18px;
+    }
+    .pop-fundraiser .pop-fundraiser-child-donate {
+        width: 330px;
+    }
+    .price-user {
+        font-size: 15px;
+    }
+}

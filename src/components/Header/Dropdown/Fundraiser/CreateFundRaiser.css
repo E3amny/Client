@@ -1,0 +1,41 @@
+.Create-fundraiser-form {
+    height: 600px;
+    margin-bottom: 25px;
+}
+
+.Create-fundraiser-form button {
+    text-align: center;
+    padding: 7px 50px;
+    background-color: #02a95c;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.success-update {
+    color: #02a95c;
+    font-size: 25px;
+}
+
+.Create-fundraiser-form {
+    margin-top: 50px;
+}
+
+.Create-fundraiser-form h4 {
+    margin: 35px 0px;
+    color: #02a95c;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 772px) {
+    .Create-fundraiser-form {
+        height: auto;
+    }
+    .goal {
+        font-size: 18px;
+    }
+} 

@@ -1,0 +1,35 @@
+body {
+    font-family: Lato, Trebuchet, Arial, sans-serif;
+}
+
+
+/* fbf8f6 */
+
+.chat-icon {
+    font-size: 50px;
+    position: fixed;
+    right: 25px;
+    bottom: 50px;
+    color: #198754;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #198754;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.osososososooso {
+    background-color: red;
+}

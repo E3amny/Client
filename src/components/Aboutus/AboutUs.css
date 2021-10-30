@@ -1,0 +1,111 @@
+.about .content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.about .content .col-left {
+    position: relative;
+    width: 45%;
+}
+
+.about .content .col-right {
+    position: relative;
+    width: 50%;
+}
+
+.about .content .col-left .img-card {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+}
+
+.about .content .col-left .img-card img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.about .content .col-right .content-title {
+    font-size: 2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.about .content .col-right p {
+    font-size: 1.3em;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /* color: rgb(163, 161, 161) */
+}
+
+.title {
+    text-align: center;
+}
+
+.section-title {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 6px solid #574B8A;
+    ;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about .button {
+    margin-top: 20px;
+    background-color: #02a95c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+section {
+    padding: 80px 180px;
+}
+
+.title {
+    text-align: center;
+}
+
+@media (max-width: 1040px) {
+    .title h1 {
+        font-size: 30px;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    .about .content {
+        flex-direction: column;
+    }
+    .about .content .column {
+        position: relative;
+        width: 100%;
+    }
+    .about .content .col-right {
+        margin-top: 40px;
+        width: 100%;
+    }
+    .about .content .col-left {
+        width: 100%;
+    }
+    .img-card img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,72 @@
+.Main-Stories {
+    background-color: #ffff;
+    border-bottom: 2px solid #ccc;
+}
+
+.Main-Stories .container {
+    padding: 35px 0px;
+}
+
+.Slider-Show {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+}
+
+.fundmeText {
+    width: 100%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: #02a95c;
+    font-size: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    position: absolute;
+}
+
+.carousel-control-next-icon {
+    right: 0;
+}
+
+.carousel-control-prev-icon {
+    left: 0;
+}
+
+.Slider-Show .fundmeText {
+    max-width: 600px;
+}
+
+.Slider-Show .fundmeText h5 {
+    color: #666;
+}
+
+@media only screen and (max-width: 1040px) {
+    .Slider-Show {
+        flex-direction: column-reverse;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+    .fundmeText {
+        margin-top: 25px;
+        width: 100%;
+    }
+    .Slider-Show img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 772px) {
+    .Slider-Show {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.Main-all-category {
+    padding: 50px 0px;
+    background-color: #fbf8f6;
+}
+
+.Main-all-category button {
+    margin-top: 20px;
+    background-color: #02a95c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin: 35px 0px;
+}
+
+.Main-all-category .Back-To-Home h1 {
+    margin: 35px 0px;
+}
+
+.Fundraising-categories h3 {
+    padding: 50px 0px;
+}
